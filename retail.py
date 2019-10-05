@@ -170,6 +170,7 @@ class GAN():
         plt.show()
         plt.close()
 
+#Generate enough epochs to create clearer images
 if __name__ == '__main__':
     gan = GAN()
     gan.train(epochs=10000, batch_size=32, sample_interval=300)
